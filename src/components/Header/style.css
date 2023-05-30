@@ -1,0 +1,26 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,168,253,1) 100%);
+}
+
+.logo_pokebola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+}
+
+.logo_pokebola img{
+    width: 50px;
+    height: 50px;
+}
+
+.pokemon img{
+    width: 250px;
+    height: 50px;
+}

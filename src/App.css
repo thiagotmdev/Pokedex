@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body.modClaro {
+  background-image: url('./assets/images/background_1.jpg');
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+  color: #000;
+}
+
+body.modEscuro {
+  background-image: url('./assets/images/background_2.jpg');
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+  color: #FFF;
+}
+
+.container_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  body.modclaro {
+    background-image: url('./assets/images/background_mobile_1.png');
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    color: #000;
+  }
+
+  body.modEscuro {
+    background-image: url('./assets/images/background_mobile_2.png');
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    color: #FFF;
+  }
+}

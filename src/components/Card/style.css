@@ -1,0 +1,138 @@
+.total{
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 32px;
+    font-size: 32px;
+    margin-top: 20px;
+    text-shadow: 1px 2px #000000;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #e48913;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FFF;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #b0dbf8;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card_int{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,60,253,1) 100%);
+    width: 210px;
+    height: 310px;
+    color: #FFF;
+    border-radius: 3px;
+}
+
+.namepoke{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.prevBtn{
+    margin-right: 30px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.nextBtn{
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        height: 250px;
+        border-radius: 5px;
+        background-color: #b0dbf8;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .card_int{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,60,253,1) 100%);
+        width: 140px;
+        height: 210px;
+        color: #FFF;
+        border-radius: 3px;
+    }
+    
+    .prevBtn{
+        margin-left: 90px;
+    }
+
+    .nextBtn{
+        margin-left: 90px;
+    }
+}
+
+@media (min-width: 374px) and (max-width: 424px){
+    .prevBtn{
+        margin-left: 60px;
+    }
+
+    .nextBtn{
+        margin-left: 60px;
+    }
+}

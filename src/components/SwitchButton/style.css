@@ -1,0 +1,43 @@
+.toggle{
+    display: none;
+}
+
+.toggle + label{
+    width: 70px;
+    height: 30px;
+    background: rgb(86, 208, 238);
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding: 2px;
+    transition: 200ms;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.toggle + label:before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url('/src/assets/images/sol_1.png');
+    background-color: aliceblue;
+    display: block;
+    border-radius: 50%;
+    right: unset;
+    left: 2px;
+    top: 2.5px;
+    transition: 200ms;
+}
+
+.toggle:checked + label{
+    background: rgb(10, 88, 190);
+}
+
+.toggle:checked + label:before{
+    content: '';
+    left: calc(100% - 28px);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+    background-color: rgb(9, 66, 173);
+    background-image: url('/src/assets/images/Lua_1.png');
+}

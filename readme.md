@@ -1,7 +1,8 @@
 # Pokedex com os primeiros 251 pokemons.
 
 ## Informações
-Projeto feito com Reactjs, consumindo duas apis de pokemon, e importando os dados para o projeto.
+
+**Projeto feito com Reactjs, consumindo duas apis de pokemon, e importando os dados para o projeto.
 
 ### Screenshot
 
@@ -18,7 +19,8 @@ Projeto feito com Reactjs, consumindo duas apis de pokemon, e importando os dado
 ************************************
 
 ##Informations
-Project maked with Reactjs, with utlization two apis of pokemons and importing this information theeses apis for the project.
+
+** Project maked with Reactjs, with utlization two apis of pokemons and importing this information theeses apis for the project.
 
 ## To download the project do the following:
 

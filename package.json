@@ -1,5 +1,5 @@
 {
-  "homepage":"https://thiagotmdev.github.io/pokedex",
+  "homepage": "https://thiagotmdev.github.io/pokedex",
   "name": "pokedex",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
@@ -19,6 +19,7 @@
     "react-router-dom": "^6.11.2"
   },
   "devDependencies": {
+    "@types/node": "^20.2.5",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
